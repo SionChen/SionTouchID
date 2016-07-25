@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		551317201D4613A400650897 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5513171F1D4613A400650897 /* main.m */; };
+		551317231D4613A400650897 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 551317221D4613A400650897 /* AppDelegate.m */; };
+		551317261D4613A400650897 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551317251D4613A400650897 /* ViewController.m */; };
+		5513172B1D4613A400650897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5513172A1D4613A400650897 /* Assets.xcassets */; };
+		5513172E1D4613A400650897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513172C1D4613A400650897 /* LaunchScreen.storyboard */; };
+		551317391D4613A400650897 /* SionTouchIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 551317381D4613A400650897 /* SionTouchIDTests.m */; };
+		551317441D4613A400650897 /* SionTouchIDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 551317431D4613A400650897 /* SionTouchIDUITests.m */; };
+		551317541D46140D00650897 /* SionTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 551317531D46140D00650897 /* SionTouchID.m */; };
+		551317581D46161C00650897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551317571D46161C00650897 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		551317351D4613A400650897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551317131D4613A400650897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5513171A1D4613A400650897;
+			remoteInfo = SionTouchID;
+		};
+		551317401D4613A400650897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551317131D4613A400650897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5513171A1D4613A400650897;
+			remoteInfo = SionTouchID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5513171B1D4613A400650897 /* SionTouchID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SionTouchID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5513171F1D4613A400650897 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		551317211D4613A400650897 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		551317221D4613A400650897 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		551317241D4613A400650897 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		551317251D4613A400650897 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5513172A1D4613A400650897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5513172D1D4613A400650897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5513172F1D4613A400650897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		551317341D4613A400650897 /* SionTouchIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SionTouchIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		551317381D4613A400650897 /* SionTouchIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SionTouchIDTests.m; sourceTree = "<group>"; };
+		5513173A1D4613A400650897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5513173F1D4613A400650897 /* SionTouchIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SionTouchIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		551317431D4613A400650897 /* SionTouchIDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SionTouchIDUITests.m; sourceTree = "<group>"; };
+		551317451D4613A400650897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		551317521D46140D00650897 /* SionTouchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SionTouchID.h; sourceTree = "<group>"; };
+		551317531D46140D00650897 /* SionTouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SionTouchID.m; sourceTree = "<group>"; };
+		551317571D46161C00650897 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		551317181D4613A400650897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551317311D4613A400650897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513173C1D4613A400650897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		551317121D4613A400650897 = {
+			isa = PBXGroup;
+			children = (
+				5513171D1D4613A400650897 /* SionTouchID */,
+				551317371D4613A400650897 /* SionTouchIDTests */,
+				551317421D4613A400650897 /* SionTouchIDUITests */,
+				5513171C1D4613A400650897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5513171C1D4613A400650897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5513171B1D4613A400650897 /* SionTouchID.app */,
+				551317341D4613A400650897 /* SionTouchIDTests.xctest */,
+				5513173F1D4613A400650897 /* SionTouchIDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5513171D1D4613A400650897 /* SionTouchID */ = {
+			isa = PBXGroup;
+			children = (
+				551317511D4613FC00650897 /* SionTouch */,
+				551317211D4613A400650897 /* AppDelegate.h */,
+				551317221D4613A400650897 /* AppDelegate.m */,
+				551317241D4613A400650897 /* ViewController.h */,
+				551317251D4613A400650897 /* ViewController.m */,
+				551317571D46161C00650897 /* Main.storyboard */,
+				5513172A1D4613A400650897 /* Assets.xcassets */,
+				5513172C1D4613A400650897 /* LaunchScreen.storyboard */,
+				5513172F1D4613A400650897 /* Info.plist */,
+				5513171E1D4613A400650897 /* Supporting Files */,
+			);
+			path = SionTouchID;
+			sourceTree = "<group>";
+		};
+		5513171E1D4613A400650897 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5513171F1D4613A400650897 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		551317371D4613A400650897 /* SionTouchIDTests */ = {
+			isa = PBXGroup;
+			children = (
+				551317381D4613A400650897 /* SionTouchIDTests.m */,
+				5513173A1D4613A400650897 /* Info.plist */,
+			);
+			path = SionTouchIDTests;
+			sourceTree = "<group>";
+		};
+		551317421D4613A400650897 /* SionTouchIDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				551317431D4613A400650897 /* SionTouchIDUITests.m */,
+				551317451D4613A400650897 /* Info.plist */,
+			);
+			path = SionTouchIDUITests;
+			sourceTree = "<group>";
+		};
+		551317511D4613FC00650897 /* SionTouch */ = {
+			isa = PBXGroup;
+			children = (
+				551317521D46140D00650897 /* SionTouchID.h */,
+				551317531D46140D00650897 /* SionTouchID.m */,
+			);
+			path = SionTouch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5513171A1D4613A400650897 /* SionTouchID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551317481D4613A400650897 /* Build configuration list for PBXNativeTarget "SionTouchID" */;
+			buildPhases = (
+				551317171D4613A400650897 /* Sources */,
+				551317181D4613A400650897 /* Frameworks */,
+				551317191D4613A400650897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SionTouchID;
+			productName = SionTouchID;
+			productReference = 5513171B1D4613A400650897 /* SionTouchID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		551317331D4613A400650897 /* SionTouchIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5513174B1D4613A400650897 /* Build configuration list for PBXNativeTarget "SionTouchIDTests" */;
+			buildPhases = (
+				551317301D4613A400650897 /* Sources */,
+				551317311D4613A400650897 /* Frameworks */,
+				551317321D4613A400650897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				551317361D4613A400650897 /* PBXTargetDependency */,
+			);
+			name = SionTouchIDTests;
+			productName = SionTouchIDTests;
+			productReference = 551317341D4613A400650897 /* SionTouchIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5513173E1D4613A400650897 /* SionTouchIDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5513174E1D4613A400650897 /* Build configuration list for PBXNativeTarget "SionTouchIDUITests" */;
+			buildPhases = (
+				5513173B1D4613A400650897 /* Sources */,
+				5513173C1D4613A400650897 /* Frameworks */,
+				5513173D1D4613A400650897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				551317411D4613A400650897 /* PBXTargetDependency */,
+			);
+			name = SionTouchIDUITests;
+			productName = SionTouchIDUITests;
+			productReference = 5513173F1D4613A400650897 /* SionTouchIDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		551317131D4613A400650897 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "超级腕电商";
+				TargetAttributes = {
+					5513171A1D4613A400650897 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					551317331D4613A400650897 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5513171A1D4613A400650897;
+					};
+					5513173E1D4613A400650897 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5513171A1D4613A400650897;
+					};
+				};
+			};
+			buildConfigurationList = 551317161D4613A400650897 /* Build configuration list for PBXProject "SionTouchID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 551317121D4613A400650897;
+			productRefGroup = 5513171C1D4613A400650897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5513171A1D4613A400650897 /* SionTouchID */,
+				551317331D4613A400650897 /* SionTouchIDTests */,
+				5513173E1D4613A400650897 /* SionTouchIDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		551317191D4613A400650897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5513172E1D4613A400650897 /* LaunchScreen.storyboard in Resources */,
+				5513172B1D4613A400650897 /* Assets.xcassets in Resources */,
+				551317581D46161C00650897 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551317321D4613A400650897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513173D1D4613A400650897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		551317171D4613A400650897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551317261D4613A400650897 /* ViewController.m in Sources */,
+				551317541D46140D00650897 /* SionTouchID.m in Sources */,
+				551317231D4613A400650897 /* AppDelegate.m in Sources */,
+				551317201D4613A400650897 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551317301D4613A400650897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551317391D4613A400650897 /* SionTouchIDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513173B1D4613A400650897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551317441D4613A400650897 /* SionTouchIDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		551317361D4613A400650897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5513171A1D4613A400650897 /* SionTouchID */;
+			targetProxy = 551317351D4613A400650897 /* PBXContainerItemProxy */;
+		};
+		551317411D4613A400650897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5513171A1D4613A400650897 /* SionTouchID */;
+			targetProxy = 551317401D4613A400650897 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5513172C1D4613A400650897 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5513172D1D4613A400650897 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		551317461D4613A400650897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		551317471D4613A400650897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		551317491D4613A400650897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SionTouchID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = model.SionTouchID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5513174A1D4613A400650897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SionTouchID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = model.SionTouchID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5513174C1D4613A400650897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SionTouchIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = model.SionTouchIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SionTouchID.app/SionTouchID";
+			};
+			name = Debug;
+		};
+		5513174D1D4613A400650897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SionTouchIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = model.SionTouchIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SionTouchID.app/SionTouchID";
+			};
+			name = Release;
+		};
+		5513174F1D4613A400650897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SionTouchIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = model.SionTouchIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SionTouchID;
+			};
+			name = Debug;
+		};
+		551317501D4613A400650897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SionTouchIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = model.SionTouchIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SionTouchID;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		551317161D4613A400650897 /* Build configuration list for PBXProject "SionTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551317461D4613A400650897 /* Debug */,
+				551317471D4613A400650897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551317481D4613A400650897 /* Build configuration list for PBXNativeTarget "SionTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551317491D4613A400650897 /* Debug */,
+				5513174A1D4613A400650897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5513174B1D4613A400650897 /* Build configuration list for PBXNativeTarget "SionTouchIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5513174C1D4613A400650897 /* Debug */,
+				5513174D1D4613A400650897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5513174E1D4613A400650897 /* Build configuration list for PBXNativeTarget "SionTouchIDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5513174F1D4613A400650897 /* Debug */,
+				551317501D4613A400650897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 551317131D4613A400650897 /* Project object */;
+}
